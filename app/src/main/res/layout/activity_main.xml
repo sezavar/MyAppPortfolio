@@ -1,0 +1,92 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <TextView
+        android:id="@+id/pageTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/title"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/buttonSpotifyStreamerId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="36dp"
+        android:width="200dp"
+        android:background="#F08C35"
+        android:onClick="onClick"
+        android:padding="20dp"
+        android:text="@string/button_spotifyStreamer_text" />
+
+    <Button
+        android:id="@+id/buttonScoresAppId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:width="200dp"
+        android:background="#F08C35"
+        android:onClick="onClick"
+        android:padding="16dp"
+        android:text="@string/button_scoresApp_text" />
+
+    <Button
+        android:id="@+id/buttonLibraryAppId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:width="200dp"
+        android:background="#F08C35"
+        android:onClick="onClick"
+        android:padding="16dp"
+        android:text="@string/button_libraryApp_text" />
+
+    <Button
+        android:id="@+id/buttonBuildItBiggerId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:width="200dp"
+        android:background="#F08C35"
+        android:onClick="onClick"
+        android:padding="16dp"
+        android:text="@string/button_buildItBigger_text" />
+
+    <Button
+        android:id="@+id/buttonXyzReaderId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:width="200dp"
+        android:background="#F08C35"
+        android:onClick="onClick"
+        android:padding="16dp"
+        android:text="@string/button_xyzReader_text" />
+
+    <Button
+        android:id="@+id/buttonCapstoneId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:width="200dp"
+        android:background="#ee0040"
+        android:onClick="onClick"
+        android:padding="16dp"
+        android:text="@string/button_capstone_text" />
+
+
+</LinearLayout>
+
